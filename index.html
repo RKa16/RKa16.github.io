@@ -2,61 +2,78 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <title>作品一覧 - サンプル</title>
+    <title>有機化学反応開発研究室</title>
     <style>
       body {
         font-family: sans-serif;
         margin: 0;
-        padding: 0;
-        background-color: #fff;
-        color: #333;
+        background-color: #fdfdfd;
       }
       header {
-        padding: 2rem;
+        background-color: #004d40;
+        color: white;
+        padding: 1rem;
         text-align: center;
-        background-color: #f5f5f5;
+      }
+      nav {
+        background-color: #e0f2f1;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0.5rem;
+      }
+      nav a {
+        margin: 0.5rem;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        color: #004d40;
+        border: 1px solid #004d40;
+        border-radius: 4px;
+        transition: 0.3s;
+      }
+      nav a:hover {
+        background-color: #004d40;
+        color: white;
       }
       main {
         max-width: 800px;
         margin: 2rem auto;
-        padding: 0 1rem;
+        padding: 1rem;
       }
-      .project-list {
-        list-style: none;
-        padding: 0;
-      }
-      .project-list li {
-        margin-bottom: 1.5rem;
-      }
-      .project-list a {
-        text-decoration: none;
-        color: #0066cc;
-        font-weight: bold;
-      }
-      .project-list a:hover {
-        text-decoration: underline;
-      }
-      .project-meta {
-        font-size: 0.9rem;
-        color: #666;
+      h2 {
+        color: #00695c;
       }
     </style>
   </head>
   <body>
     <header>
-      <h1>作品一覧</h1>
+      <h1>有機化学反応開発研究室</h1>
+      <p>新たな化学反応の開発を通じて、未来の合成科学を切り開く</p>
     </header>
+
+    <nav>
+      <a href="overview.html">研究概要</a>
+      <a href="background.html">研究の背景・目的</a>
+      <a href="research.html">研究内容</a>
+      <a href="references.html">参考文献</a>
+      <a href="achievements.html">これまでの成果・学会発表</a>
+      <a href="collaborators.html">共同研究者の紹介</a>
+      <a href="contact.html">お問合せフォーム</a>
+    </nav>
+
     <main>
-      <ul class="project-list">
-        <li>
-          <a href="#">プロジェクトタイトル1</a>
-          <div class="project-meta">学会名・発表年</div>
-        </li>
-        <li>
-          <a href="#">プロジェクトタイトル2</a>
-          <div class="project-meta">学会名・発表年</div>
-        </li>
-        <!-- 追加のプロジェクトをここに記述 -->
+      <h2>ご挨拶</h2>
+      <p>
+        本研究室では、有機合成化学を基盤とした新規反応の開発を進めています。
+        環境に優しく、より効率的な化学変換を実現することで、創薬・材料科学・農業化学など
+        多岐にわたる分野への応用を目指しています。
+      </p>
+
+      <h2>最近のトピック</h2>
+      <ul>
+        <li>触媒を用いたC-H結合の選択的変換に成功</li>
+        <li>環境調和型の有機反応プロトコルを確立</li>
+        <li>日本化学会年会2025にて成果を発表予定</li>
       </ul>
     </main>
   </body>
