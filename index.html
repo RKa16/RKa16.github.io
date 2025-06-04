@@ -2,9 +2,62 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <title>こんにちは</title>
+    <title>作品一覧 - サンプル</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #fff;
+        color: #333;
+      }
+      header {
+        padding: 2rem;
+        text-align: center;
+        background-color: #f5f5f5;
+      }
+      main {
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+      }
+      .project-list {
+        list-style: none;
+        padding: 0;
+      }
+      .project-list li {
+        margin-bottom: 1.5rem;
+      }
+      .project-list a {
+        text-decoration: none;
+        color: #0066cc;
+        font-weight: bold;
+      }
+      .project-list a:hover {
+        text-decoration: underline;
+      }
+      .project-meta {
+        font-size: 0.9rem;
+        color: #666;
+      }
+    </style>
   </head>
   <body>
-    <h1>こんにちは</h1>
+    <header>
+      <h1>作品一覧</h1>
+    </header>
+    <main>
+      <ul class="project-list">
+        <li>
+          <a href="#">プロジェクトタイトル1</a>
+          <div class="project-meta">学会名・発表年</div>
+        </li>
+        <li>
+          <a href="#">プロジェクトタイトル2</a>
+          <div class="project-meta">学会名・発表年</div>
+        </li>
+        <!-- 追加のプロジェクトをここに記述 -->
+      </ul>
+    </main>
   </body>
 </html>
